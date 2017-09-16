@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.emery.circleprogressbar.MainActivity">
+
+    <com.example.emery.circleprogressbar.CircleProgressBar
+        android:id="@+id/progress"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="0dp"
+        android:visibility="gone">
+
+    </com.example.emery.circleprogressbar.CircleProgressBar>
+     <com.example.emery.circleprogressbar.ShaderView
+         android:id="@+id/shadView"
+         android:visibility="gone"
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         tools:layout_editor_absoluteY="8dp"
+         tools:layout_editor_absoluteX="8dp">
+     </com.example.emery.circleprogressbar.ShaderView>
+    <com.example.emery.circleprogressbar.ZoomView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</RelativeLayout>
